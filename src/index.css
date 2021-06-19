@@ -1,8 +1,17 @@
+
+
+@font-face {
+  font-family: 'ffMark-bold';
+  src: local('ffMark-bold'), url(./fonts/Mark-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ffMark';
+  src: local('ffMark'), url(./fonts/Mark-Medium.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: ffMark !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

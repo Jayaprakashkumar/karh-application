@@ -1,7 +1,15 @@
+
+
 .wrapper {
     width: 100%;
     background-color: #c4dcc6;
     position: relative;
+}
+.font-heading{
+    font-family: ffMark-bold;
+}
+.font-normal{
+    font-family: ffMark;
 }
 .banner-1 {
     background-repeat: no-repeat;
@@ -13,7 +21,8 @@
     background-size: cover;
 }
 .navbar {
-    z-index: 1;
+    z-index: 100;
+    /* font-family: ffMark; */
 }
 
 .header {
@@ -21,9 +30,9 @@
     justify-content: space-around;
 }
 .header a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding-top: 18px;
-    font-size: 1em;
+    font-size: 1.09em;
     color: #152414;
 }
 .header a:hover {
@@ -49,10 +58,11 @@
 .banner-2 {
     background-color: #152414;
     color: #c4dcc6;
-    padding: 6em 1em;
+    /* padding: 6em 1em; */
 }
+
 .banner2-text {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 .banner-3 {
     padding-top: 9em;
@@ -71,12 +81,22 @@
     font-size: 12px;
 }
 .banner-4 h2 {
-    font-size: 5.5em;
-    padding-top: 1.5em;
+    font-size: 4.5em;
+    padding-top: 0.5em;
 }
 .banner-4 {
     padding-top: 2em;
     text-align: center;
+    
+}
+.banner-4 ul {
+    display: inline-block;
+}
+/* .banner-4 ul:last-child {
+    width: 65%;
+} */
+.banner-4 ul li {
+    text-align: left;
 }
 .banner4-picture {
     width: 200px;
@@ -95,15 +115,13 @@
     font-weight: 600;
 }
 .banner-5 {
-    padding-top: 15em;
+    padding-top: 5em;
 }
 .banner-6 {
     background-color: #d3e3d4;
-    padding-top: 4em;
+    padding: 5em 0;
 }
-.rights-text {
-    padding-top: 4em;
-}
+
 .goToButton {
     display: inline-block;
     padding: 0.75rem 1.25rem;
@@ -165,6 +183,31 @@
 .modal-dialog {
     color: #152414;
 }
+.footer {
+    /* border-top: 1px solid #b9d4bc; */
+    background-color: #152414;
+    color: #c4dcc6;
+}
+.footer img {
+    width: 13%;
+}
+.address-block {
+    width: 100%;
+    font-size: 1em;
+}
+.address-block .address-flag{
+    width: 60%;
+}
+.social-link {
+    text-align: right;
+}
+
+.social-link img {
+    width: 3%;
+}
+.mob-view-disappear{
+    display: block;
+}
 
 /* Generic styling */
 .w-80 {
@@ -179,8 +222,11 @@
 .font-2em {
     font-size: 2em;
 }
-.pb-11 {
-    padding-bottom: 11em;
+.pb-06 {
+    padding-bottom: 6em;
+}
+.pb-04 {
+    padding-bottom: 4em;
 }
 html {
     scrollbar-width: thin;
@@ -200,6 +246,41 @@ html {
 .mob-view {
     display: block;
 }
+.p06em-1em {
+    padding: 6em 1em;
+}
+.logo-bottom {
+    letter-spacing: 8px;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+.desktopView {
+    display: block;
+}
+.mobView {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobView {
+        display: block;
+    }
+    .desktopView {
+        display: none;
+    }
+    .social-link {
+        text-align: center;
+    }
+    .banner2-about{
+        padding:4em 1em 0 1em;
+    }
+    .mob-view-disappear{
+        display: none;
+    }
+  
+   
+  
+}
 
 @media only screen and (max-width: 991px) {
     .navbar {
@@ -215,17 +296,24 @@ html {
     .navbar a {
         color: #fff !important;
     }
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         width: 80%;
     }
     .banner1-text {
         font-size: 3em;
     }
-    .header a{
+    .header a {
         font-size: 0.8em;
+        padding-top: 9px;
     }
     .banner-4 h2 {
         font-size: 3em;
+    }
+    .footer img {
+        width: 30%;
+    }
+    .social-link img {
+        width: 5%;
     }
 }
 
@@ -238,5 +326,22 @@ html {
     }
     .banner-4 h2 {
         font-size: 2em;
+    }
+    .footer img {
+        width: 50%;
+    }
+    .address-block {
+        font-size: 0.8em;
+    }
+
+    .address-flag {
+        width: 100% !important;
+        font-size: 0.8em;
+    }
+    .social-link{
+        padding-right: 0;   
+    }
+    .social-link img {
+        width: 10%;
     }
 }
