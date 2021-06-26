@@ -289,11 +289,11 @@ class LandingPage extends Component {
 
                     </div>
                     <div className="row footer">
-                        <div className="footer-logo mb-5">
-                        <img src="../images/KARH_LOGOTYPE-ICON_RGB_-07.svg" alt="logo" className="mx-auto footer-logo" />
+                        <div className="footer-logo">
+                        <img src="../images/footerImg.png" alt="logo" className="mx-auto" />
                         </div> 
-                        <p className="font-1em address-flag w-100 mb-2 text-center" >16 Madison Square W., Floor 12, New York, NY 10010</p>
-                        <p className="font-1em text-center w-100 mb-4">contact: 718-395-7852 <span className="social-link"><a href="https://www.linkedin.com/company/karh/" target="_blank" rel="noreferrer"><img src="../images/linkedln.png" alt="likedlnlogo" /> </a></span></p>
+                        <p className=" address-flag w-100 mb-2 text-center px-2" >16 Madison Square W., Floor 12, New York, NY 10010</p>
+                        <p className=" address-flag text-center w-100 mb-4">P: 718-395-7852 <span className="social-link"><a href="https://www.linkedin.com/company/karh/" target="_blank" rel="noreferrer"><img className="pb-1" src="../images/linkedln.png" alt="likedlnlogo" /> </a></span></p>
                       
                         <p className="text-center  font-08em w-100" >All rights reserved 2021 Karh Inc - epower eco.</p>
 

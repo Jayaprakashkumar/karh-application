@@ -1,14 +1,12 @@
-
-
 .wrapper {
     width: 100%;
     background-color: #c4dcc6;
     position: relative;
 }
-.font-heading{
+.font-heading {
     font-family: ffMark-bold;
 }
-.font-normal{
+.font-normal {
     font-family: ffMark;
 }
 .banner-1 {
@@ -87,7 +85,6 @@
 .banner-4 {
     padding-top: 2em;
     text-align: center;
-    
 }
 .banner-4 ul {
     display: inline-block;
@@ -185,31 +182,28 @@
 }
 .footer {
     /* border-top: 1px solid #b9d4bc; */
-    background-color: #152414;
+    background-color: #0c1e0b;
+    /* background-color: #152414; */
+    
     color: #c4dcc6;
 }
 .footer .footer-logo {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  
+    width: 12em;
+    margin: 0 auto;
 }
-.footer-logo img{
+.footer-logo img {
     width: 100%;
 }
 .address-block {
     width: 100%;
     font-size: 1em;
 }
-.address-block .address-flag{
-    width: 60%;
-}
 
-.mob-view-disappear{
+.mob-view-disappear {
     display: block;
 }
-.social-link img{
-    vertical-align: sub;
+.social-link:hover {
+    cursor: pointer;
 }
 
 /* Generic styling */
@@ -274,16 +268,12 @@ html {
     .social-link {
         text-align: center;
     }
-    .banner2-about{
-        padding:4em 1em 0 1em;
+    .banner2-about {
+        padding: 4em 1em 0 1em;
     }
-    .mob-view-disappear{
+    .mob-view-disappear {
         display: none;
     }
- 
-  
-   
-  
 }
 
 @media only screen and (max-width: 991px) {
@@ -313,9 +303,6 @@ html {
     .banner-4 h2 {
         font-size: 3em;
     }
- 
-   
-  
 }
 
 @media only screen and (max-width: 500px) {
@@ -328,7 +315,7 @@ html {
     .banner-4 h2 {
         font-size: 2em;
     }
-   
+
     .address-block {
         font-size: 0.8em;
     }
@@ -337,10 +324,7 @@ html {
         width: 100% !important;
         font-size: 0.8em;
     }
-    .social-link{
-        padding-right: 0;   
+    .social-link {
+        padding-right: 0;
     }
-  
-  
- 
 }
